@@ -1,2 +1,2 @@
-# Crawl_StockPrice_to_DB
-Crawl stock price from twstock and put it in database
+使用 twstock 套件爬取台灣證券交易所（TWSE）上市股票的歷史資料，並將每日股價更新至 MySQL 資料庫
+支援 自動更新補資料（增量更新）、資料清理、資料庫 upsert（新增＋更新）
